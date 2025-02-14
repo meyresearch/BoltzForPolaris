@@ -1,0 +1,274 @@
+Matplotlib is building the font cache; this may take a moment.
+Checking input data.
+Running predictions for 1 structure
+Processing input data.
+  0%|          | 0/1 [00:00<?, ?it/s]Generating MSA for test.fasta with 1 protein entities.
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+100%|██████████| 1/1 [00:01<00:00,  1.95s/it]100%|██████████| 1/1 [00:01<00:00,  1.96s/it]
+/home/s1905547/.local/lib/python3.10/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python3 /home/s1905547/.local/bin/boltz predict test.fasta  ...
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/s1905547/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:75: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [04:31<00:00,  0.00it/s]Number of failed examples: 0
+Predicting DataLoader 0: 100%|██████████| 1/1 [04:31<00:00,  0.00it/s]
+Checking input data.
+Found some existing predictions (1), skipping and running only the missing ones, if any. If you wish to override these existing predictions, please set the --override flag.
+No predictions to run, exiting.
+Checking input data.
+Found existing predictions, will override.
+Running predictions for 1 structure
+Processing input data.
+Found a manifest file at output directory: boltz_results_test
+All examples in data are processed. Updating the manifest
+/home/s1905547/.local/lib/python3.10/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python3 /home/s1905547/.local/bin/boltz predict test.fasta  ...
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/s1905547/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:75: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [04:28<00:00,  0.00it/s]Number of failed examples: 0
+Predicting DataLoader 0: 100%|██████████| 1/1 [04:28<00:00,  0.00it/s]
+Checking input data.
+Running predictions for 20 structures
+Processing input data.
+  0%|          | 0/20 [00:00<?, ?it/s]Generating MSA for train_fasta/seq_3.fasta with 2 protein entities.
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+  5%|▌         | 1/20 [00:04<01:25,  4.52s/it]Generating MSA for train_fasta/seq_9.fasta with 2 protein entities.
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+ 10%|█         | 2/20 [00:08<01:17,  4.28s/it]Generating MSA for train_fasta/seq_11.fasta with 2 protein entities.
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+ 15%|█▌        | 3/20 [00:12<01:11,  4.19s/it]Generating MSA for train_fasta/seq_10.fasta with 1 protein entities.
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+ 20%|██        | 4/20 [00:14<00:54,  3.39s/it]Generating MSA for train_fasta/seq_13.fasta with 1 protein entities.
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+ 25%|██▌       | 5/20 [00:16<00:43,  2.91s/it]Generating MSA for train_fasta/seq_15.fasta with 2 protein entities.
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+ 30%|███       | 6/20 [00:20<00:45,  3.27s/it]Generating MSA for train_fasta/seq_7.fasta with 2 protein entities.
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+ 35%|███▌      | 7/20 [00:24<00:44,  3.42s/it]Generating MSA for train_fasta/seq_8.fasta with 2 protein entities.
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+ 40%|████      | 8/20 [00:28<00:42,  3.56s/it]Generating MSA for train_fasta/seq_16.fasta with 2 protein entities.
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:02 remaining: 00:00]
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:02 remaining: 00:00]
+ 45%|████▌     | 9/20 [00:33<00:43,  3.93s/it]Generating MSA for train_fasta/seq_14.fasta with 1 protein entities.
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+ 50%|█████     | 10/20 [00:35<00:34,  3.43s/it]Generating MSA for train_fasta/seq_12.fasta with 2 protein entities.
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:02 remaining: 00:00]
+ 55%|█████▌    | 11/20 [00:39<00:33,  3.73s/it]Generating MSA for train_fasta/seq_2.fasta with 2 protein entities.
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:02 remaining: 00:00]
+ 60%|██████    | 12/20 [00:43<00:30,  3.81s/it]Generating MSA for train_fasta/seq_17.fasta with 1 protein entities.
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+ 65%|██████▌   | 13/20 [00:46<00:23,  3.31s/it]Generating MSA for train_fasta/seq_1.fasta with 1 protein entities.
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+ 70%|███████   | 14/20 [00:48<00:17,  2.91s/it]Generating MSA for train_fasta/seq_5.fasta with 1 protein entities.
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+ 75%|███████▌  | 15/20 [00:50<00:13,  2.74s/it]Generating MSA for train_fasta/seq_18.fasta with 1 protein entities.
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+ 80%|████████  | 16/20 [00:52<00:10,  2.59s/it]Generating MSA for train_fasta/seq_6.fasta with 2 protein entities.
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:01 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:02 remaining: 00:00]
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:02 remaining: 00:00]
+ 85%|████████▌ | 17/20 [00:57<00:09,  3.23s/it]Generating MSA for train_fasta/seq_19.fasta with 1 protein entities.
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+ 90%|█████████ | 18/20 [00:59<00:05,  2.93s/it]Generating MSA for train_fasta/seq_4.fasta with 2 protein entities.
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:02 remaining: 00:00]
+ 95%|█████████▌| 19/20 [01:03<00:03,  3.34s/it]Generating MSA for train_fasta/seq_0.fasta with 1 protein entities.
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+100%|██████████| 20/20 [01:06<00:00,  3.01s/it]100%|██████████| 20/20 [01:06<00:00,  3.31s/it]
+/home/s1905547/.local/lib/python3.10/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python3 /home/s1905547/.local/bin/boltz predict train_fasta ...
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/s1905547/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:75: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/20 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/20 [00:00<?, ?it/s]Predicting DataLoader 0:   5%|▌         | 1/20 [04:28<1:25:04,  0.00it/s]Predicting DataLoader 0:  10%|█         | 2/20 [09:10<1:22:35,  0.00it/s]Predicting DataLoader 0:  15%|█▌        | 3/20 [13:44<1:17:53,  0.00it/s]Predicting DataLoader 0:  20%|██        | 4/20 [18:14<1:12:57,  0.00it/s]Predicting DataLoader 0:  25%|██▌       | 5/20 [22:46<1:08:19,  0.00it/s]Predicting DataLoader 0:  30%|███       | 6/20 [27:25<1:03:58,  0.00it/s]Predicting DataLoader 0:  35%|███▌      | 7/20 [31:59<59:25,  0.00it/s]  Predicting DataLoader 0:  40%|████      | 8/20 [36:41<55:02,  0.00it/s]Predicting DataLoader 0:  45%|████▌     | 9/20 [41:11<50:20,  0.00it/s]Predicting DataLoader 0:  50%|█████     | 10/20 [45:45<45:45,  0.00it/s]Predicting DataLoader 0:  55%|█████▌    | 11/20 [50:23<41:14,  0.00it/s]Predicting DataLoader 0:  60%|██████    | 12/20 [55:02<36:41,  0.00it/s]Predicting DataLoader 0:  65%|██████▌   | 13/20 [59:22<31:58,  0.00it/s]Predicting DataLoader 0:  70%|███████   | 14/20 [1:03:57<27:24,  0.00it/s]Predicting DataLoader 0:  75%|███████▌  | 15/20 [1:08:29<22:49,  0.00it/s]Predicting DataLoader 0:  80%|████████  | 16/20 [1:13:10<18:17,  0.00it/s]Predicting DataLoader 0:  85%|████████▌ | 17/20 [1:17:51<13:44,  0.00it/s]Predicting DataLoader 0:  90%|█████████ | 18/20 [1:22:13<09:08,  0.00it/s]Predicting DataLoader 0:  95%|█████████▌| 19/20 [1:26:43<04:33,  0.00it/s]Predicting DataLoader 0: 100%|██████████| 20/20 [1:31:11<00:00,  0.00it/s]Number of failed examples: 0
+Predicting DataLoader 0: 100%|██████████| 20/20 [1:31:11<00:00,  0.00it/s]
+Boltz predict ran successfully
+Boltz predict ran successfully
+Checking input data.
+Running predictions for 1 structure
+Processing input data.
+  0%|          | 0/1 [00:00<?, ?it/s]Generating MSA for 3B_fasta/frag_1.fasta with 1 protein entities.
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 150/150 [elapsed: 00:15 remaining: 00:00]
+100%|██████████| 1/1 [00:20<00:00, 20.07s/it]100%|██████████| 1/1 [00:20<00:00, 20.07s/it]
+/home/s1905547/.local/lib/python3.10/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python3 /home/s1905547/.local/bin/boltz predict 3B_fasta/fr ...
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/s1905547/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:75: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]| WARNING: ran out of memory, skipping batch
+Predicting DataLoader 0: 100%|██████████| 1/1 [00:01<00:00,  0.81it/s]Number of failed examples: 1
+Predicting DataLoader 0: 100%|██████████| 1/1 [00:01<00:00,  0.81it/s]
+Checking input data.
+Running predictions for 1 structure
+Processing input data.
+Found a manifest file at output directory: boltz_results_frag_0
+All examples in data are processed. Updating the manifest
+/home/s1905547/.local/lib/python3.10/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python3 /home/s1905547/.local/bin/boltz predict 3B_fasta/fr ...
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/s1905547/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:75: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]| WARNING: ran out of memory, skipping batch
+Predicting DataLoader 0: 100%|██████████| 1/1 [00:00<00:00,  1.10it/s]Number of failed examples: 1
+Predicting DataLoader 0: 100%|██████████| 1/1 [00:00<00:00,  1.10it/s]
+Checking input data.
+Running predictions for 1 structure
+Processing input data.
+Found a manifest file at output directory: boltz_results_frag_0
+All examples in data are processed. Updating the manifest
+/home/s1905547/.local/lib/python3.10/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python3 /home/s1905547/.local/bin/boltz predict 3B_fasta/fr ...
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/s1905547/.local/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:75: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]| WARNING: ran out of memory, skipping batch
+Predicting DataLoader 0: 100%|██████████| 1/1 [00:00<00:00,  1.09it/s]Number of failed examples: 1
+Predicting DataLoader 0: 100%|██████████| 1/1 [00:00<00:00,  1.09it/s]
+Boltz predict ran successfully
+Boltz predict ran successfully
