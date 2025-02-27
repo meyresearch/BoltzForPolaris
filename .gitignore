@@ -3,10 +3,11 @@ archive/
 **/*.yaml
 **/*.csv
 **/*.sdf
-**/*.mol2
-**/*.pdb
+
+reference_complex/*
 **/*.pse
 **/*.fasta
 test_ligand_outputs/*
 train_ligand_outputs/*
 test_split_output_for_minimization/*
+Protein-Dock/*
