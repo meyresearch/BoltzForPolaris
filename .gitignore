@@ -4,7 +4,8 @@ archive/
 **/*.csv
 **/*.sdf
 **/*.mol2
-
+**/*.pdb
+**/*.pse
 **/*.fasta
 test_ligand_outputs/*
 train_ligand_outputs/*
