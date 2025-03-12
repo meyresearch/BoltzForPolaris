@@ -11,3 +11,6 @@ test_ligand_outputs/*
 train_ligand_outputs/*
 test_split_output_for_minimization/*
 Protein-Dock/*
+
+test_*/
+boltz_*/
