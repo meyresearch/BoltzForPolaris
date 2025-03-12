@@ -2,15 +2,11 @@
 archive/
 **/*.yaml
 **/*.csv
-**/*.sdf
 
 reference_complex/*
 **/*.pse
-**/*.fasta
-test_ligand_outputs/*
-train_ligand_outputs/*
-test_split_output_for_minimization/*
-Protein-Dock/*
 
+test_ligand_outputs/*
+test_split_output_for_minimization/*
 test_*/
 boltz_*/
